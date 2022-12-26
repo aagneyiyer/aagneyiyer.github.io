@@ -1,0 +1,929 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+div {
+    display: block;
+}
+body {
+	margin: 0;
+	text-align: center;
+	font-family: 'Manrope', sans-serif;
+}
+
+header {
+	margin-top: 1em;
+	position: absolute;
+	width: 100%
+}
+
+.title {
+	font-size: 3.0em;
+  text-align: center;
+  font-family: 'Raleway';
+}
+
+.title span {
+	font-size: 0.8em;
+	display: block;
+	padding-top: 0.3em;
+}
+
+.title-container {
+	position: absolute;
+	width: 100%;
+	margin: 0 auto;
+	top: 30vh;
+
+
+}
+.title2 {
+	font-size: 2.3em;
+  text-align: center;
+}
+
+.title2 span {
+	font-size: 0.8em;
+	display: block;
+	padding-top: 0.3em;
+}
+
+.title2-container {
+	position: absolute;
+	width: 100%;
+	margin: 0 auto;
+	top: 30vh;
+
+
+}
+
+.active{
+  color:black;
+  text-decoration: underline;   
+}
+
+.home {
+	background-image: url("img/landing7.jpg");
+	background-size: cover;
+	background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+	padding: 27.5em 0;
+	color: white;
+	width: 100%
+}
+
+.article{
+    margin: 5vh 20vw 5vh 20vw; 
+    font-size:1.2em;
+    text-align:justify;
+    text-justify: inter-word;
+    line-height: 180%;
+
+}
+
+
+.list{
+    margin: 0px 25vw 5vh 25vw;
+    font-size:1.2em;
+}
+
+.list2{
+    margin: 0px 25vw 5vh 25vw;
+    font-size:1.2em;
+    text-align:justify;
+    text-justify: inter-word;
+    line-height: 180%;
+}
+
+@media (min-width: 50rem) {
+	.home {
+		height: 100vh;
+	}
+}
+
+.btn {
+	text-decoration: none;
+	position: relative;
+	color: white;
+	width: 11em;
+	height: 3.5em;
+	line-height: 3.5em;
+	display: inline-block;
+	font-size: 1rem;
+}
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:lowercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+.btn::before, .btn::after {
+	content: '';
+	position: absolute;
+ 	bottom: 0;
+ 	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: all 0.4s;
+}
+
+.scrolldown::before {
+	opacity: 0;
+	background: rgba(255, 255, 255, 0.1);
+	transform: scale(0.9, 0.9);
+	border-radius: 11px;
+}
+
+.scrolldown:hover::before {
+	opacity: 1;
+	transform: scale(1, 1);
+}
+
+.scrolldown::after {
+	transition: all 0.3s;
+	border: 0.1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 11px;
+}
+
+
+.scrolldown:hover::after {
+	transform: scale(0, 0);
+}
+
+.logo {
+	float: left;
+	margin: 1em;
+  text-decoration: none;
+	text-transform: lowercase;
+	color: white;
+	font-size: 2.1em;
+	font-weight: 600;
+}
+
+nav ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	left: 1.5%;
+	list-style: none;
+	text-decoration: none;
+	float: right;
+}
+
+nav li {
+	position: relative;
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+	margin: 2em;
+}
+
+nav a {
+
+	text-decoration: none;
+	text-transform: lowercase;
+	color: black;
+	font-size: 1.1em;
+	font-weight: 600;
+	padding: 0.5em;
+}
+
+nav a:hover {
+	color: black;
+	transition: ease 0.3s;
+}
+
+@media (max-width: 50rem) {
+	.logo  {
+		position: left;
+		left: 40%;
+		top: -30%;
+		display: inline-block;
+		width: 18%;
+		margin: 0;
+		padding: 0;
+	}
+   .pic{
+    display:none;
+   }
+	nav ul {
+		float: right;
+		margin: 0 0.1em;
+	}
+	nav a{
+		font-size: 0.8em;
+	}
+	nav li {
+		margin-left: 0.5em;
+	}
+     #name{
+        display: none;
+     }
+     .article{
+        margin: 0px 10vw 5vh 10vw; 
+        font-size:1.2em;
+        text-align:justify;
+        text-justify: inter-word;
+        line-height: 180%;
+    
+    }
+    
+    .list{
+        margin: 0px 15vw 5vh 15vw;
+        font-size:1.2em;
+    }
+    
+    .list2{
+        margin: 0px 15vw 5vh 15vw;
+        font-size:1.2em;
+        text-align:justify;
+        text-justify: inter-word;
+        line-height: 180%;
+    }
+}
+
+/* useless stuff */
+
+/* cool lookin scroll bar */
+
+body::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+body::-webkit-scrollbar-track {
+  background: #F3F3F3;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #9A9A9A;
+}
+
+
+
+/* Website Fade In  */
+
+#fade {
+	-webkit-animation: fadein 1.2s;
+	-moz-animation: fadein 1.2s;
+	animation: fadein 1.2s;
+}
+
+@-webkit-keyframes fadein {
+	from {opacity: 0.2;}
+	to   {opacity: 1;}
+}
+
+@-moz-keyframes fadein {
+	from {opacity: 0.2;}
+ 	to   {opacity: 1;}
+}
+
+
+@keyframes fadein {
+	from {opacity: 0.2;}
+	to   {opacity: 1;}
+}
+
+
+
+
+/* SCROLL DOWN */
+
+.scroll-down a:hover {
+	opacity: 0.5;
+	transition: all 0.3s;
+	margin-top: 0.5em;
+}
+
+.scroll-down a {  /* i killed it */
+	position: absolute;
+	top: 95%;
+	margin-top: 0.5em;
+}
+
+#down a span {
+	position: absolute;
+	display: inline-block;
+	top: -2.5em;
+	left: 50%;
+	width: 1.5em;
+	height: 1.5em;
+	margin-left: -12px;
+	border-left: 2px solid white;
+	border-bottom: 2px solid white;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+
+/* fade in out scroll button */
+
+.scroll-down {
+	animation: fadeoutin 4s linear 2 forwards;
+	margin-top: 0.5em;
+}
+
+
+@keyframes fadeoutin {
+	0% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+
+
+
+
+
+/* SECONDARY */
+
+
+#wrapper{
+  width:100vw;
+  height:100vh;
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family: 'Manrope', sans-serif;;
+  font-size: 2rem;
+}
+.my-super-cool-btn{
+  position:relative;
+  text-decoration:none;
+  color:#fff;
+  letter-spacing:1px;
+  font-size:2rem;
+  box-sizing:border-box;
+}
+.my-super-cool-btn span{
+  position:relative;
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:200px;
+  height:200px;
+}
+.my-super-cool-btn span:before{
+  content:'';
+  width:100%;
+  height:100%;
+  display:block;
+  position:absolute;
+  border-radius:100%;
+  border:7px solid #F3CF14;
+  box-sizing:border-box;
+  transition: all .85s cubic-bezier(0.25, 1, 0.33, 1);
+  box-shadow: 0 30px 85px rgba(0,0,0,0.14), 0 15px 35px rgba(0,0,0,0.14);
+}
+.my-super-cool-btn:hover span:before{
+  transform:scale(0.8);
+  box-shadow: 0 20px 55px rgba(0,0,0,0.14), 0 15px 35px rgba(0,0,0,0.14);
+}
+.my-super-cool-btn .dots-container{
+  opacity:0;
+  animation: intro 1.6s;
+  animation-fill-mode: forwards;
+}
+.my-super-cool-btn .dot{
+  width:8px;
+  height:8px;
+  display:block;
+  background-color:#F3CF14;
+  border-radius:100%;
+  position:absolute;
+  transition: all .85s cubic-bezier(0.25, 1, 0.33, 1);
+}
+.my-super-cool-btn .dot:nth-child(1){
+  top:50px;
+  left:50px;
+  transform:rotate(-140deg);
+  animation: swag1-out 0.3s;
+  animation-fill-mode: forwards;
+  opacity:0;
+}
+.my-super-cool-btn .dot:nth-child(2){
+  top:50px;
+  right:50px;
+  transform:rotate(140deg);
+  animation: swag2-out 0.3s;
+  animation-fill-mode: forwards;
+  opacity:0;
+}
+.my-super-cool-btn .dot:nth-child(3){
+  bottom:50px;
+  left:50px;
+  transform:rotate(140deg);
+  animation: swag3-out 0.3s;
+  animation-fill-mode: forwards;
+  opacity:0;
+}
+.my-super-cool-btn .dot:nth-child(4){
+  bottom:50px;
+  right:50px;
+  transform:rotate(-140deg);
+  animation: swag4-out 0.3s;
+  animation-fill-mode: forwards;
+  opacity:0;
+}
+.my-super-cool-btn:hover .dot:nth-child(1){
+  animation: swag1 0.3s;
+  animation-fill-mode: forwards;
+}
+.my-super-cool-btn:hover .dot:nth-child(2){
+  animation: swag2 0.3s;
+  animation-fill-mode: forwards;
+}
+.my-super-cool-btn:hover .dot:nth-child(3){
+  animation: swag3 0.3s;
+  animation-fill-mode: forwards;
+}
+.my-super-cool-btn:hover .dot:nth-child(4){
+  animation: swag4 0.3s;
+  animation-fill-mode: forwards;
+}
+@keyframes intro {
+   0% {
+     opacity:0;
+  }
+  100% {
+     opacity:1;
+  }
+}
+@keyframes swag1 {
+   0% {
+     top:50px;
+     left:50px;
+     width:8px;
+  }
+  50% {
+    width:30px;
+    opacity:1;
+  }
+  100% {
+     top:20px;
+     left:20px;
+     width:8px;
+     opacity:1;
+  }
+}
+@keyframes swag1-out {
+   0% {
+     top:20px;
+     left:20px;
+     width:8px;
+  }
+  50% {
+     width:30px;
+    opacity:1;
+  }
+  100% {
+     top:50px;
+     left:50px;
+     width:8px;
+    opacity:0;
+  }
+}
+@keyframes swag2 {
+   0% {
+     top:50px;
+     right:50px;
+     width:8px;
+  }
+  50% {
+    width:30px;
+    opacity:1;
+  }
+  100% {
+     top:20px;
+     right:20px;
+     width:8px;
+     opacity:1;
+  }
+}
+@keyframes swag2-out {
+   0% {
+     top:20px;
+     right:20px;
+     width:8px;
+  }
+  50% {
+     width:30px;
+    opacity:1;
+  }
+  100% {
+     top:50px;
+     right:50px;
+     width:8px;
+    opacity:0;
+  }
+}
+@keyframes swag3 {
+   0% {
+     bottom:50px;
+     left:50px;
+     width:8px;
+  }
+  50% {
+    width:30px;
+    opacity:1;
+  }
+  100% {
+     bottom:20px;
+     left:20px;
+     width:8px;
+     opacity:1;
+  }
+}
+@keyframes swag3-out {
+   0% {
+     bottom:20px;
+     left:20px;
+     width:8px;
+  }
+  50% {
+     width:30px;
+    opacity:1;
+  }
+  100% {
+     bottom:50px;
+     left:50px;
+     width:8px;
+    opacity:0;
+  }
+}
+@keyframes swag4 {
+   0% {
+     bottom:50px;
+     right:50px;
+     width:8px;
+  }
+  50% {
+    width:30px;
+    opacity:1;
+  }
+  100% {
+     bottom:20px;
+     right:20px;
+     width:8px;
+     opacity:1;
+  }
+}
+@keyframes swag4-out {
+   0% {
+     bottom:20px;
+     right:20px;
+     width:8px;
+  }
+  50% {
+     width:30px;
+    opacity:1;
+  }
+  100% {
+     bottom:50px;
+     right:50px;
+     width:8px;
+    opacity:0;
+  }
+
+}
+
+h2{
+  text-align: right;
+  margin-bottom: -15px;
+}
+
+.active{
+    color:black;
+    text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li{
+  line-height: 160%;
+}
+
+
+/* The actual timeline (the vertical ruler) */
+ .timeline {
+  position: relative;
+  max-width: 100%;
+  margin: 0;
+}
+/* 
+The actual timeline (the vertical ruler)  */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  z-index: -1;
+  margin-left: -3px;
+} 
+
+/* Container around content */
+
+.overview{
+  padding: 10px 0px;
+  position: relative;
+  background-color: white;
+  width: 80%;
+
+}
+.container {
+  padding: 10px 0px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.container2 {
+  padding: 10px 0px;
+  position: relative;
+  background-color: inherit;
+  width: 90%;
+}
+
+.right2{
+  left: 30%;
+}
+
+/* The circles on the timeline */
+/* .container::after {
+content: '';
+position: absolute;
+width: 25px;
+height: 25px;
+right: -17px;
+background-color: white;
+border: 4px solid black;
+top: 15px;
+border-radius: 50%;
+z-index: 1;
+} */
+
+/* Place the container to the left */
+.left{
+  right: 0%
+}
+
+/* Place the container to the right */
+.right {
+  left: 25%;
+}
+
+/* Add arrows to the left container (pointing right) */
+/* .left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid black;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent black;
+} */
+
+/* Add arrows to the right container (pointing left) */
+/* .right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid black;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent black transparent transparent;
+} */
+
+/* Fix the circle for containers on the right side */
+/* .right::after {
+  left: -16px;
+} */
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: #F6F6F6;
+  position: relative;
+  text-align: start;
+  border-radius: 5%;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 50%;
+  }
+
+/* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+  .container2{
+    display: none;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
