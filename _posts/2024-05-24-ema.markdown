@@ -1,0 +1,24 @@
+---
+title: "Ecological Momentary Assessment for Audiometry"
+layout: post
+date: 2024-05-24 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+category: blog
+author: jamesfoster
+description: Markdown summary with different options
+---
+
+## Objective
+
+Generally speaking, an Ecological Momentary Assessment (EMA), is a field research tool where subjects repeatedly capture data points regarding their normal environment. In the case of my lab, the Applied Hearing Science Lab, that meant a tool for subject’s to record qualitative survey responses as well as a set of audio samples, while being able to track their progress and see how many samples and surveys they’ve recorded so far.
+
+
+## Outcome
+
+I took this idea from its concept to a fully-functional product within around seven weeks while balancing coursework and other responsibilities. It can be demoed at `ema-frontend.vercel.app/enchanted-forest`. 
+
+For the front-end, I used React with TypeScript, and set up a web server using Node and Express.js. I wrote middleware to receive and store .mp3 audio files, as well as API endpoints to write survey responses to a text file. To enable progress tracking that persisted across devices, I used AWS DynamoDB. 
+
+Furthermore, we decided against having any user authentication because we didn’t want incorrect or forgotten passwords to complicate the user workflow. Instead, we assigned each person an arbitrary alias, which we then added as a route in the website. This way, each subject could access their assessment via their own URL, and it would remain anonymous and personal to them (for example, `enchanted-forest` as shown above). I used Vercel for hosting which was also free. 
