@@ -1,0 +1,23 @@
+---
+title: "Direct Admit Seminar Teaching Assistant"
+layout: post
+date: 2023-12-13 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+category: blog
+author: jamesfoster
+description: Markdown summary with different options
+---
+
+## Context
+
+CSE 190B is an one-credit seminar class meant for direct admits to the Paul G. Allen School at UW. It is meant to familiarize students with navigating the Allen School and UW in general in terms of coursework, extracurriculars, research, and career opportunities. 
+
+I did not personally take this seminar the previous Autumn, but thought it would be fun to TA for. It was also very low commitment, so I didn't have much to lose
+
+## Thoughts
+
+My biggest takeaway is how impressive it is that Professor Dan Grossman manages to create a vision for each weekly seminar, structure the activities around that vision, and execute it every time almost perfectly. Down to the minute, the seminars are quite literally jam-packed with a variety of exercises, panels, guest speakers, and whatnot.
+
+I got some experience speaking in front of a big audience (over 300 people). It was fun crafting what I would say and spending 20 minutes rehearsing that one minute speech each week. Not much else to say here, but certainly a positive experience.

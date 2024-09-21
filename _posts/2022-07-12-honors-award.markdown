@@ -15,7 +15,7 @@ description: Markdown summary with different options
 
 ## Random Blessing
 
-I'm sitting in the office of my unpaid internship. I can't remember what I was doing on my phone, probably scrolling Instagram like a degenerate. I get an Outlook notification: **UW Honors Scholarship Letter**
+I'm sitting in the office of my unpaid internship. I can't remember what I was doing on my phone, probably scrolling Instagram. I get an Outlook notification: **UW Honors Scholarship Letter**
 
 *Um, what the fuck?*
 
