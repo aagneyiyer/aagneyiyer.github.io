@@ -14,6 +14,8 @@ description: Markdown summary with different options
 
 Generally speaking, an Ecological Momentary Assessment (EMA), is a field research tool where subjects repeatedly capture data points regarding their normal environment. In the case of my lab, the Applied Hearing Science Lab, that meant a tool for subject’s to record qualitative survey responses as well as a set of audio samples, while being able to track their progress and see how many samples and surveys they’ve recorded so far.
 
+The end goal is to have a set of audio samples which we can use to normalize the noise conditions during the subject's hearing aid fitting. In other words, we will be able to provide an accurate noise stimulus for subjects to listen to when choosing the settings of their hearing aids.
+
 
 ## Outcome
 
