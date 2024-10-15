@@ -1,0 +1,44 @@
+---
+title: "SATMaxxing"
+layout: post
+date: 2021-05-21 22:44
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- markdown
+- elements
+star: true
+category: blog
+author: johndoe
+description: Markdown summary with different options
+---
+
+## Four Digits
+
+The first thing I told my parents after my May 8th, 2021 SAT exam was that "it felt very similar to the practice tests". I hoped for a 1500+ score. Just under two weeks later, I jolted awake at around 6:30 AM, knowing that scores had just released. 
+
+> 1590 Total Score | 790 Evidence-Based Reading and Writing | 800 Math
+
+There's just no better feeling in the world, I don't think. Well, except if I hadn't gotten that one vocabulary question wrong. 
+
+## Journey
+
+I was always quite fixated on the SAT: a single convenient integer to compare students all across America. Of course, the introduction of test-optional policies certainly took off some of that gravity. But it still remained the one perfectly universal metric in a college admissions process full of inconsistent school grading systems and hard-to-compare extracurricular awards. 
+
+My January 2021 PSAT score was an underwhelming 1410. I had spent a good few months preparing for it, but that score was an important kick in the pants that spurred me to change my studying approach, particularly on the English section. I got nine (9!) questions wrong on the PSAT reading section alone. I needed a drastic change.
+
+## Reading
+
+I have [this article](https://blog.prepscholar.com/how-to-get-800-on-sat-writing-11-strategies-from-a-perfect-scorer) to thank for my sheer glow-up. In summary, I totally shifted my study approach from quantity to quality. Specifically, understanding every mistake was critical. After reading this article, I took several practice exams and did a deep dive into my mistakes on each one. What did I get wrong? Why was my answer wrong? What made me think that answer was right, and why is that logic wrong? What is the correct answer? What is the correct logic that leads to that answer? What are some pieces of evidence from the text that would lead us to that answer? What will I do next time to get that correct answer? These are all questions I would ask myself and write out answers to for every missed question. The result was a word document full of about 15 paragraphs worth of deep reflection that made me realize patterns and techniques in the reading section. I would recommend this strategy to anyone struggling with the reading section.
+
+I went from 9 wrong answers to just 1 wrong answer on the reading section after doing this for around five practice tests. Quality of practice beats quantity of practice tests in my experience.
+
+## Math
+
+As far as both Math sections go, however, it is a much simpler game. I believe that any student taking Calculus by Junior or Senior year of high school absolutely has the ability to ace the SAT Math section. Consider the following: an AP Calculus AB student is given 24 hours to complete both SAT Math sections, provided only a writing instrument and a calculator when permitted. I can almost guarantee that this student would score a perfect 800.
+
+My point is that it is nothing but a race against the clock, and the only way to train for this is to repeatedly do math sections until the time is not a worry. On my actual exam, I finished each section with 20 minutes to spare, allowing me time to effectively redo every problem and catch any errors.
+
+## Writing
+
+Admittedly, I did not study for the writing section. I was fortunate enough to have an excellent English teacher in middle school that drilled all the grammar and comma rules. Paired with some solid writing intuition, this was the one section I felt comfortable freestyling. Ironically it is the one section I lost points on, so go figure.
