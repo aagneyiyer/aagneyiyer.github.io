@@ -19,8 +19,8 @@ The end goal is to have a set of audio samples which we can use to normalize the
 
 ## Outcome
 
-I took this idea from its concept to a fully-functional product within around seven weeks while balancing coursework and other responsibilities. It can be demoed at `ema-frontend.vercel.app/enchanted-forest`. 
+I took this idea from its concept to a fully-functional product within around seven weeks while balancing coursework and other responsibilities. It can be demoed [here](https://ema-frontend.vercel.app/enchanted-forest). 
 
-For the front-end, I used React with TypeScript, and set up a web server using Node and Express.js. I wrote middleware to receive and store .mp3 audio files, as well as API endpoints to write survey responses to a text file. To enable progress tracking that persisted across devices, I used AWS DynamoDB. 
+For the front-end, I used React with TypeScript, and set up a web server using Node and Express.js. I wrote middleware to receive and store .mp3 audio files, as well as API endpoints to write survey responses to an output file. To enable progress tracking that persisted across browser sessions, I used AWS DynamoDB. 
 
-Furthermore, we decided against having any user authentication because we didn’t want incorrect or forgotten passwords to complicate the user workflow. Instead, we assigned each person an arbitrary alias, which we then added as a route in the website. This way, each subject could access their assessment via their own URL, and it would remain anonymous and personal to them (for example, `enchanted-forest` as shown above). I used Vercel for hosting which was also free. 
+Furthermore, we decided against having any user authentication because we didn’t want incorrect or forgotten passwords to complicate the user workflow. Instead, we assigned each person an arbitrary alias, which we then added as a route in the website. This way, each subject could access their assessment via their own URL, and it would remain anonymous and personal to them (for example, `enchanted-forest` in the link above). Some might call it jank, I call it scrappy. I used Vercel for hosting which was also free. 

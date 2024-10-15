@@ -14,7 +14,7 @@ description: Markdown summary with different options
 
 CSE 190B is an one-credit seminar class meant for direct admits to the Paul G. Allen School at UW. It is meant to familiarize students with navigating the Allen School and UW in general in terms of coursework, extracurriculars, research, and career opportunities. 
 
-I did not personally take this seminar the previous Autumn, but thought it would be fun to TA for. It was also very low commitment, so I didn't have much to lose
+I did not personally take this seminar the previous Autumn, but thought it would be fun to TA for. It was also very low commitment, so I didn't have much to lose.
 
 ## Thoughts
 
