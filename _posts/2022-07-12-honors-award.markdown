@@ -5,9 +5,6 @@ date: 2022-07-12 22:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- markdown
-- elements
-star: true
 category: blog
 author: johndoe
 description: Markdown summary with different options
