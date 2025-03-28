@@ -12,7 +12,9 @@ description: Markdown summary with different options
 
 ## Context
 
-Being a consulting firm, Accenture assigns each intern to a client project. My project was an automated welfare solution for a major state in the US. My team specifically manages reports, which are dashboards about financials, demographics, foster care, healthcare, etc. We have a large code repository that ingests this data from Oracle into S3 buckets, curates it for specific reports, and runs periodic jobs to keep curating in regular intervals.
+Being a consulting firm, Accenture assigns each intern to a client project. Here's what my client engagement was all about.
+
+Sike, I signed a million NDAs pledging my sincerest integrity to data privacy or something. But since you're curious, my client is a US-based automated eligibility system. I was on a team that ingests and curates reports from Oracle and S3 buckets, and runs periodic jobs to keep curating in regular intervals.
 
 ## Outcome
 

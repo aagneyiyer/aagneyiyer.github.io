@@ -4,9 +4,9 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Hey! I'm a junior studying computer science at the University of Washington. I work at Amazon as a Junior Software Engineer, where I help deploy machine learning models to detect copyright infringement on Amazon's catalog. I'm also a teaching assistant for database systems.</p>
+<p>Hey! My name is Aagney, and I'm from Kirkland, WA. I like soccer, freestyling, thrifting, and the occasional side project.</p>
 
-<p>I love soccer, karaoke, crosswords, and wasting great hip-hop instrumentals on my freestyles.</p>
+<p>I am a junior studying computer science at the University of Washington. I also work at Amazon as a Junior Software Engineer on the Brand Protection team.</p>
 
 <!-- <h2>Skills</h2>
 
